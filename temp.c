@@ -1,6 +1,6 @@
 #include "mpi.h"
 #include <stdio.h>
-//pp
+
 int main(int argc,char** argv)
 {
     int rank,size;
@@ -37,7 +37,7 @@ int main(int argc,char** argv)
             // printf("%d ",b[i]);
         }
 
-        printf("Sum of cubes = %d\n",sum);
+        printf("Sum of cubes is %d\n",sum);
     }
     return 0;
 }
