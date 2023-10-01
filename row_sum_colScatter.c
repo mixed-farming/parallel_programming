@@ -3,7 +3,7 @@
 
 int main(int argc, char *argv[])
 {
-    int rank, size;//new variables
+    int rank, size;
     int i, j, a[3][3], b[3], rsum[3], sum = 0;
     MPI_Status status;
     MPI_Init(&argc, &argv);
