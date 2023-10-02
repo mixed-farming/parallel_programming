@@ -1,6 +1,6 @@
 #include "mpi.h"
 #include <stdio.h>
-
+//parallel programming
 int main(int argc,char** argv)
 {
     int rank,size;
